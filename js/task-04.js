@@ -1,9 +1,11 @@
+let counterValue = 0;
+
 const display = document.querySelector("#value");
 const incrementBtn = document.querySelector('[data-action="increment"]');
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 
-incBtn.addEventListener("click", incrementValue);
-decBtn.addEventListener("click", decrementValue);
+incrementBtn.addEventListener("click", incrementValue);
+decrementBtn.addEventListener("click", decrementValue);
 
 function incrementValue() {
   counterValue += 1;
